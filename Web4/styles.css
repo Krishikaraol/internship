@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    overflow: hidden;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 10px 0;
+}
+
+.top-bar {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.contact-item img{
+    height: 10%;
+    width: 10%;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #ff0066;
+    opacity: 0.8;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+nav .logo h1 {
+    font-size: xx-large;
+    color: #fff;
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links .buy-ticket {
+    background-color: #ff0066;
+    padding: 10px 20px;
+    border-radius: 40px;
+    transition: background-color 0.3s;
+}
+
+.nav-links .buy-ticket:hover {
+    background-color: #ff4080;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-details {
+    max-width: 400%;
+    text-align: center;
+    color: white;
+}
+
+.event-details h2 {
+    text-transform: uppercase;
+    font-size: 2em;
+    color: white;
+    padding-bottom: 0%;
+    margin: 0%;
+}
+
+.event-details h1 {
+    text-transform: uppercase;
+    font-size: 4em;
+    color: #ff0066;
+    padding-bottom: 0%;
+    margin: 0%;
+    /* text-indent: 20px; */
+}
+
+.event-details pre {
+    font-size: 1.2em;
+    margin: 20px 60px 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* text-indent: 90px; */
+}
+
+.buttons .btn {
+    background-color: #ff0066;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.buttons .btn:hover {
+    background-color: #ff4080;
+}
+
+.event-image img {
+
+    max-width: 100%;
+    border-radius: 10px;
+}
