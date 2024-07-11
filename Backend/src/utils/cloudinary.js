@@ -40,9 +40,9 @@ export {uploadOnCloudinary}
 
 //     // Configuration
 //     cloudinary.config({ 
-//         cloud_name: 'dsdrifdji', 
-//         api_key: '372735899591489', 
-//         api_secret: 'UtKtkgb9dfRdE87aFoNjdOKgRtI' // Click 'View Credentials' below to copy your API secret
+//         cloud_name: process.env.CLOUDINARY_CLOUD_NAME, 
+//   api_key: process.env.CLOUDINARY_API_KEY, 
+//   api_secret: process.env.CLOUDINARY_API_SECRET // Click 'View Credentials' below to copy your API secret
 //     });
     
 //     // Upload an image
